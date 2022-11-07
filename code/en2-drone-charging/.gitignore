@@ -1,0 +1,19 @@
+# GIT ignore configruation
+# The environment and result folder are ignored
+env/
+/results/
+drone_charging_example/results/evaluation_local/
+.vscode/
+*.cmd
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.mypy_cache
+VENV_DIR/
+.idea/
+ml_deeco/results/
+drone_charging_example/results/
+wandb/

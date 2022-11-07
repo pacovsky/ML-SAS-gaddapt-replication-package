@@ -1,0 +1,29 @@
+drones: 4
+birds: 5
+chargers: [
+#  [37, 29],
+#  [35, 33],
+#  [39, 33],
+  [37, 31]
+]
+chargerCapacity: 3
+fields: [
+  [6, 7, 25, 11],
+  [6, 24, 21, 27],
+  [33, 16, 41, 19],
+  [58, 7, 66, 10],
+  [53, 43, 69, 47],
+]
+
+maxSteps: 500
+mapWidth: 69
+mapHeight: 48
+droneRadius: 5
+birdSpeed: 1
+droneSpeed: 1
+chargingRate: 0.08350
+totalAvailableChargingEnergy: 0.08350
+droneMovingEnergyConsumption: 0.00977
+droneProtectingEnergyConsumption: 0.00977
+droneBatteryRandomize: 1
+droneStartPositionVariance: 1

@@ -1,0 +1,29 @@
+drones: 4
+birds: 5
+chargers: [
+  [112, 88],
+  [107, 99],
+  [118, 99],
+]
+fields: [
+  [17, 23, 75, 33],
+  [17, 72, 63, 82],
+  [101, 48, 124, 58],
+  [174, 21, 197, 31],
+  [161, 131, 207, 141],
+]
+ #TODO hardcode line in run   yamlObject['chargerCapacity'] = findChargerCapacity(yamlObject)
+# TODO make chargerCapacity == 1 ->
+
+maxSteps: 500
+mapWidth: 207
+mapHeight: 146
+droneRadius: 15
+birdSpeed: 3.857
+droneSpeed: 4.59
+chargingRate: 0.08350
+totalAvailableChargingEnergy: 0.08350
+droneMovingEnergyConsumption: 0.00977
+droneProtectingEnergyConsumption: 0.00977
+droneBatteryRandomize: 1
+droneStartPositionVariance: 1

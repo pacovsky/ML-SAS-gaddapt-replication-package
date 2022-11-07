@@ -1,0 +1,27 @@
+drones: 16
+birds: 100
+chargers: [[17,  7],
+       [15, 40],
+       [32, 40],
+       [47, 25],
+       [45,  7],
+       [40, 22]]
+
+fields: [[27,  0, 37, 15],
+       [10, 15, 25, 30],
+       [45, 15, 60, 30],
+       [40, 35, 55, 50],
+       [20, 35, 35, 50]]
+
+maxSteps: 500
+mapWidth: 70
+mapHeight: 60
+droneRadius: 5
+birdSpeed: 1 
+droneSpeed: 1
+chargingRate: 0.04
+totalAvailableChargingEnergy: 0.08
+droneMovingEnergyConsumption: 0.01
+droneProtectingEnergyConsumption: 0.005
+droneBatteryRandomize: 0
+droneStartPositionVariance: 1
